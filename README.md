@@ -101,5 +101,5 @@ export default enhance(App);
 or 
 // we can make a reusable HOC by composing all HOC's.
 const ReusableHOC = composeHOC(withProps(extProps), withRouter, withStyle)
-export default connect(mapState,mapDispatch)(ReusableHOC)
+export default connect(mapState,mapDispatch)(ReusableHOC(App))
 ```
