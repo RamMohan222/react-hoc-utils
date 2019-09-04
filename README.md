@@ -1,4 +1,4 @@
-# react-utils
+# react-hoc-utils
 Common useful utility functions in React Js
 
   ## HOC (Higher Order Components)
